@@ -1,11 +1,11 @@
 import React, { useEffect } from 'react'
 import Sidebar from '@com/sidebar'
+import ColorBox from '@com/colorBox'
 import Markdown from 'markdown-to-jsx'
 import Prism from 'prismjs'
-import { Main, H, A, T, Playground, Wrapper, Summary, Details, Description, Ul, InlineCode } from '@com/md'
+import { Main, H, A, T, Playground, Wrapper, Summary, Details, Description, Ul, InlineCode, Link } from '@com/md'
 
 export default function Home(props) {
-  console.log(props)
   const options = [
     {
       zh: '快速了解',
@@ -47,7 +47,13 @@ export default function Home(props) {
             table: T.Table,
             thead: T.Thead,
             a: A,
-            inlineCode: InlineCode
+            inlineCode: InlineCode,
+            ColorBox: {
+              component: ColorBox
+            },
+            Link: {
+              component: Link
+            }
           }
         }}
       />

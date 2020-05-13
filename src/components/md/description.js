@@ -6,7 +6,8 @@ const Description = ({ children, ...props }) => {
       {children}
       <style jsx>{`
         .description {
-          padding: 10px 0;
+          margin-top: 10px;
+          line-height: 1.5;
         }
       `}</style>
     </div>

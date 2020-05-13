@@ -12,6 +12,7 @@ export default function Playground({ children }) {
           border-style: solid;
           border-color: rgb(234, 234, 234);
           border-image: initial;
+          margin-top: 15px;
         }
       `}</style>
     </div>

@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react'
 import Sidebar from '@com/sidebar'
-import { Button } from 'nei-ui'
+import { Button, Spacer } from 'nei-ui'
 import Markdown from 'markdown-to-jsx'
 import Prism from 'prismjs'
 import { Main, H, T, Playground, Wrapper, Summary, Details, Description, Ul } from '@com/md'
@@ -44,7 +44,6 @@ const options = [
 ]
 
 export default function Component(props) {
-  console.log(props)
   const { name } = props.match.params
   const MAIN = require(`./subPages/${name}.md`).default || ''
 
@@ -66,6 +65,9 @@ export default function Component(props) {
             h3: H.H3,
             Button: {
               component: Button
+            },
+            Spacer: {
+              component: Spacer
             },
             playground: Playground,
             wrapper: Wrapper,

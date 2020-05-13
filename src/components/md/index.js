@@ -1,6 +1,6 @@
 import H from './h'
 import T from './table'
-import A from './a'
+import { A, Link } from './a'
 import Main from './main'
 import Playground from './playground'
 import Wrapper from './wrapper'
@@ -10,4 +10,4 @@ import Description from './description'
 import Ul from './ul'
 import InlineCode from './inlineCode'
 
-export { H, T, A, Main, Playground, Wrapper, Summary, Details, Description, Ul, InlineCode }
+export { H, T, A, Main, Playground, Wrapper, Summary, Details, Description, Ul, InlineCode, Link }

@@ -220,13 +220,14 @@ ReactDOM.render(
 </details>
 </playground>
 
-|   属性   |    描述    | 类型       | 默认值      |
-| :------: | :--------: | ---------- | ----------- |
-|   type   | 按钮的类型 | ButtonType | 'default'   |
-|   size   | 按钮的大小 | ButtonSize | 'default'   |
-|  danger  |  危险按钮  | Boolean    | false       |
-| disabled |  禁用按钮  | Boolean    | false       |
-| onClick  |  点击事件  | Function   | (event)=>{} |
+|   属性    |    描述    | 类型       | 默认值      |
+| :-------: | :--------: | ---------- | ----------- |
+|   type    | 按钮的类型 | ButtonType | 'default'   |
+|   size    | 按钮的大小 | ButtonSize | 'default'   |
+|  danger   |  危险按钮  | Boolean    | false       |
+| disabled  |  禁用按钮  | Boolean    | false       |
+|  onClick  |  点击事件  | Function   | (event)=>{} |
+| className | 自定义类名 | string     | -           |
 
 ### 类型说明
 
