@@ -39,21 +39,23 @@
 
 ```jsx
 import { Spacer } from 'nei-ui'
-ReactDOM.render(
-  <>
-    <div style="background: #bbb; width:100%;display:flex;">
-      <Spacer y={0.5}>
-    </div>
-      <Spacer y={1}>
-    <div style="background: #bbb; width:100%;display:flex;">
-      <Spacer y={1.5}>
-    </div>
-    <Spacer y={2}>
-    <div style="background: #bbb; width:100%;display:flex;">
-      <Spacer y={2.5}>
-    </div>
-  </>
-)
+() => {
+  return (
+    <>
+      <div style="background: #bbb; width:100%;display:flex;">
+        <Spacer y={0.5}>
+      </div>
+        <Spacer y={1}>
+      <div style="background: #bbb; width:100%;display:flex;">
+        <Spacer y={1.5}>
+      </div>
+      <Spacer y={2}>
+      <div style="background: #bbb; width:100%;display:flex;">
+        <Spacer y={2.5}>
+      </div>
+    </>
+  )
+}
 ```
 
 </details>
@@ -90,21 +92,23 @@ ReactDOM.render(
 
 ```jsx
 import { Spacer } from 'nei-ui'
-ReactDOM.render(
-  <div style={{display: 'flex'}}>
-    <div style={{background: '#bbb', display: 'inline-block'}}>
-      <Spacer x={0.5}>
+() => {
+  return (
+    <div style={{display: 'flex'}}>
+      <div style={{background: '#bbb', display: 'inline-block'}}>
+        <Spacer x={0.5}>
+      </div>
+        <Spacer x={1}>
+      <div style={{background: '#bbb', display: 'inline-block'}}>
+        <Spacer x={1.5}>
+      </div>
+      <Spacer x={2}>
+      <div style={{background: '#bbb', display: 'inline-block'}}>
+        <Spacer x={2.5}>
+      </div>
     </div>
-      <Spacer x={1}>
-    <div style={{background: '#bbb', display: 'inline-block'}}>
-      <Spacer x={1.5}>
-    </div>
-    <Spacer x={2}>
-    <div style={{background: '#bbb', display: 'inline-block'}}>
-      <Spacer x={2.5}>
-    </div>
-  </div>
-)
+  )
+}
 ```
 
 </details>
@@ -138,21 +142,23 @@ ReactDOM.render(
 
 ```jsx
 import { Spacer } from 'nei-ui'
-ReactDOM.render(
-  <>
-    <div style={{background: '#bbb', display: 'inline-block'}}>
-      <Spacer x={0.5}>
-    </div>
-      <Spacer isInline x={1}>
-    <div style={{background: '#bbb', display: 'inline-block'}}>
-      <Spacer x={1.5}>
-    </div>
-    <Spacer isInline x={2}>
-    <div style={{background: '#bbb', display: 'inline-block'}}>
-      <Spacer x={2.5}>
-    </div>
-  </>
-)
+() => {
+  return (
+    <>
+      <div style={{background: '#bbb', display: 'inline-block'}}>
+        <Spacer x={0.5}>
+      </div>
+        <Spacer isInline x={1}>
+      <div style={{background: '#bbb', display: 'inline-block'}}>
+        <Spacer x={1.5}>
+      </div>
+      <Spacer isInline x={2}>
+      <div style={{background: '#bbb', display: 'inline-block'}}>
+        <Spacer x={2.5}>
+      </div>
+    </>
+  )
+}
 ```
 
 </details>

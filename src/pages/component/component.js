@@ -1,9 +1,22 @@
 import React, { useEffect } from 'react'
 import Sidebar from '@com/sidebar'
-import { Button, Spacer } from 'nei-ui'
+import { Button, Spacer, Isolator, Input, Checkbox, Radio } from 'nei-ui'
 import Markdown from 'markdown-to-jsx'
 import Prism from 'prismjs'
-import { Main, H, T, Playground, Wrapper, Summary, Details, Description, Ul } from '@com/md'
+import {
+  Main,
+  H,
+  T,
+  Playground,
+  Wrapper,
+  Summary,
+  Details,
+  Description,
+  Ul,
+  InputDemo,
+  CheckboxDemo,
+  CheckboxGroupDemo
+} from '@com/md'
 
 const options = [
   {
@@ -43,6 +56,54 @@ const options = [
   }
 ]
 
+const mdOptions = {
+  forceBlock: true,
+  overrides: {
+    main: Main,
+    h1: H.H1,
+    h2: H.H2,
+    h3: H.H3,
+    Button: {
+      component: Button
+    },
+    Spacer: {
+      component: Spacer
+    },
+    Isolator: {
+      component: Isolator
+    },
+    Input: {
+      component: Input
+    },
+    InputDemo: {
+      component: InputDemo
+    },
+    Checkbox: {
+      component: Checkbox
+    },
+    Radio: {
+      component: Radio
+    },
+    CheckboxDemo: {
+      component: CheckboxDemo
+    },
+    CheckboxGroupDemo: {
+      component: CheckboxGroupDemo
+    },
+    playground: Playground,
+    wrapper: Wrapper,
+    summary: Summary,
+    details: Details,
+    desc: Description,
+    ul: Ul,
+    td: T.Td,
+    tr: T.Tr,
+    th: T.Th,
+    table: T.Table,
+    thead: T.Thead
+  }
+}
+
 export default function Component(props) {
   const { name } = props.match.params
   const MAIN = require(`./subPages/${name}.md`).default || ''
@@ -54,35 +115,7 @@ export default function Component(props) {
     <div className="wrapper">
       <Sidebar showDescription destination="/component" options={options} />
       <div className="hiddenSidebar" />
-      <Markdown
-        children={MAIN}
-        options={{
-          forceBlock: true,
-          overrides: {
-            main: Main,
-            h1: H.H1,
-            h2: H.H2,
-            h3: H.H3,
-            Button: {
-              component: Button
-            },
-            Spacer: {
-              component: Spacer
-            },
-            playground: Playground,
-            wrapper: Wrapper,
-            summary: Summary,
-            details: Details,
-            desc: Description,
-            ul: Ul,
-            td: T.Td,
-            tr: T.Tr,
-            th: T.Th,
-            table: T.Table,
-            thead: T.Thead
-          }
-        }}
-      />
+      <Markdown children={MAIN} options={mdOptions} />
       <style jsx>{`
         .wrapper {
           min-height: calc(100vh - 108px);

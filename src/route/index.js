@@ -1,6 +1,5 @@
 import React from 'react'
 import { BrowserRouter as Router, Route, Switch, Redirect } from 'react-router-dom'
-import history from '@/utils/history'
 import Header from '@com/header'
 import Home from '@page/home'
 import Component from '@page/component'
@@ -9,7 +8,7 @@ import Customization from '@page/customization'
 export default function App() {
   return (
     <>
-      <Router history={history} basename="/nei">
+      <Router basename="/nei">
         <Header />
         <Switch>
           <Route path="/guide/:name" component={Home} />

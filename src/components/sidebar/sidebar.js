@@ -7,11 +7,7 @@ export default React.memo(({ options, showDescription = false, destination, ...p
       {options.map((item, index) => (
         <div className="wrapper" key={index}>
           <span className="subTitle">{item.zh}</span>
-          <Children
-            showDescription={showDescription}
-            destination={destination}
-            items={item.children}
-          />
+          <Children showDescription={showDescription} destination={destination} items={item.children} />
         </div>
       ))}
       <style jsx>{`
@@ -28,7 +24,7 @@ export default React.memo(({ options, showDescription = false, destination, ...p
           transition: transform 200ms ease-out 0s;
         }
         .wrapper {
-          margin-bottom: 16pt;
+          margin-bottom: 8pt;
           width: 100%;
         }
         span {

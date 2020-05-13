@@ -7179,10 +7179,10 @@ negotiator@0.6.2:
   resolved "http://r.cnpmjs.org/negotiator/download/negotiator-0.6.2.tgz#feacf7ccf525a77ae9634436a64883ffeca346fb"
   integrity sha1-/qz3zPUlp3rpY0Q2pkiD/+yjRvs=
 
-nei-ui@0.1.5:
-  version "0.1.5"
-  resolved "http://r.cnpmjs.org/nei-ui/download/nei-ui-0.1.5.tgz#1e0c84e2ff049a6f8169e931c6c5873ef1e1bd4f"
-  integrity sha1-HgyE4v8Emm+BaekxxsWHPvHhvU8=
+nei-ui@0.1.8:
+  version "0.1.8"
+  resolved "http://r.cnpmjs.org/nei-ui/download/nei-ui-0.1.8.tgz#9308f06932bf8414babe919cef08ac81558e240c"
+  integrity sha1-kwjwaTK/hBS6vpGc7wisgVWOJAw=
   dependencies:
     classnames "^2.2.6"
     glob "^7.1.6"

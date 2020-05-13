@@ -47,15 +47,17 @@
 
 ```jsx
 import { Button } from 'nei-ui'
-ReactDOM.render(
-  <>
-    <Button type="default">default button</Button>
-    <Button type="primary">primary button</Button>
-    <Button type="success">success button</Button>
-    <Button type="warning">warning button</Button>
-    <Button type="link">link button</Button>
-  </>
-)
+() => {
+  return (
+    <>
+      <Button type="default">default button</Button>
+      <Button type="primary">primary button</Button>
+      <Button type="success">success button</Button>
+      <Button type="warning">warning button</Button>
+      <Button type="link">link button</Button>
+    </>
+  )
+}
 ```
 
 </details>
@@ -87,13 +89,15 @@ ReactDOM.render(
 
 ```jsx
 import { Button } from 'nei-ui'
-ReactDOM.render(
-  <>
-    <Button size="small">small button</Button>
-    <Button size="default">default button</Button>
-    <Button size="large">large button</Button>
-  </>
-)
+() => {
+  return (
+    <>
+      <Button size="small">small button</Button>
+      <Button size="default">default button</Button>
+      <Button size="large">large button</Button>
+    </>
+  )
+}
 ```
 
 </details>
@@ -120,17 +124,15 @@ ReactDOM.render(
 
 ```jsx
 import { Button } from 'nei-ui'
-ReactDOM.render(
-  <>
-    <Button danger>danger button</Button>
-    <Button danger type="success">
-      danger success button
-    </Button>
-    <Button danger type="link">
-      link button
-    </Button>
-  </>
-)
+() => {
+  return (
+    <>
+      <Button danger>danger button</Button>
+      <Button danger type="success">danger success button</Button>
+      <Button danger type="link">link button</Button>
+    </>
+  )
+}
 ```
 
 </details>
@@ -156,17 +158,15 @@ ReactDOM.render(
 
 ```jsx
 import { Button } from 'nei-ui'
-ReactDOM.render(
-  <>
-    <Button danger>danger button</Button>
-    <Button danger type="primary">
-      primary button
-    </Button>
-    <Button danger type="link">
-      link button
-    </Button>
-  </>
-)
+() => {
+  return (
+    <>
+      <Button danger>danger button</Button>
+      <Button danger type="primary">primary button</Button>
+      <Button danger type="link">link button</Button>
+    </>
+  )
+}
 ```
 
 </details>
@@ -197,28 +197,32 @@ ReactDOM.render(
 
 ```jsx
 import { Button } from 'nei-ui'
-ReactDOM.render(
-  <>
-    <Button ghost>ghost button</Button>
-    <Button ghost type="primary">
-      ghost primary button
-    </Button>
-    <Button ghost type="success">
-      ghost success button
-    </Button>
-    <Button ghost type="warning">
-      ghost warning button
-    </Button>
-    <Button ghost danger type="primary">
-      ghost danger button
-    </Button>
-    <Button type="link">ghost link button</Button>
-  </>
-)
+() => {
+  return (
+    <>
+      <Button ghost>ghost button</Button>
+      <Button ghost type="primary">
+        ghost primary button
+      </Button>
+      <Button ghost type="success">
+        ghost success button
+      </Button>
+      <Button ghost type="warning">
+        ghost warning button
+      </Button>
+      <Button ghost danger type="primary">
+        ghost danger button
+      </Button>
+      <Button type="link">ghost link button</Button>
+    </>
+  )
+}
 ```
 
 </details>
 </playground>
+
+### 接口
 
 |   属性    |    描述    | 类型       | 默认值      |
 | :-------: | :--------: | ---------- | ----------- |
@@ -226,7 +230,7 @@ ReactDOM.render(
 |   size    | 按钮的大小 | ButtonSize | 'default'   |
 |  danger   |  危险按钮  | Boolean    | false       |
 | disabled  |  禁用按钮  | Boolean    | false       |
-|  onClick  |  点击事件  | Function   | (event)=>{} |
+|  onClick  |  点击事件  | (event)=>{}   | - |
 | className | 自定义类名 | string     | -           |
 
 ### 类型说明

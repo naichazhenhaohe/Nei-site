@@ -30,6 +30,8 @@
 
 <desc>并把选择好的样式如下作为 customTheme 传入 Provider。</desc>
 
+<div>
+
 ```jsx
 import { Provider } from 'nei-ui
 
@@ -46,6 +48,10 @@ ReactDOM.render(
     </Provider>
   </>
 )
+
 ```
 
+</div>
+
 </main>
+```

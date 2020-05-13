@@ -9,5 +9,24 @@ import Details from './details'
 import Description from './description'
 import Ul from './ul'
 import InlineCode from './inlineCode'
+import InputDemo from './InputDemo'
+import CheckboxDemo from './CheckboxDemo'
+import CheckboxGroupDemo from './CheckboxGroupDemo';
 
-export { H, T, A, Main, Playground, Wrapper, Summary, Details, Description, Ul, InlineCode, Link }
+export {
+  H,
+  T,
+  A,
+  Main,
+  Playground,
+  Wrapper,
+  Summary,
+  Details,
+  Description,
+  Ul,
+  InlineCode,
+  Link,
+  InputDemo,
+  CheckboxDemo,
+  CheckboxGroupDemo
+}
