@@ -1,6 +1,20 @@
 import React, { useEffect } from 'react'
 import Sidebar from '@com/sidebar'
-import { Button, Spacer, Isolator, Input, Checkbox, Radio } from 'nei-ui'
+import {
+  Button,
+  Spacer,
+  Isolator,
+  Input,
+  Checkbox,
+  Radio,
+  Select,
+  Cascader,
+  Card,
+  Progress,
+  Tag,
+  Switch,
+  Tooltip
+} from 'nei-ui'
 import Markdown from 'markdown-to-jsx'
 import Prism from 'prismjs'
 import {
@@ -15,7 +29,14 @@ import {
   Ul,
   InputDemo,
   CheckboxDemo,
-  CheckboxGroupDemo
+  CheckboxGroupDemo,
+  RadioGroupDemo,
+  SelectGroupDemo,
+  BasicCascader,
+  SizeCascader,
+  SeparatorCascader,
+  DisabledCascader,
+  CardDemo
 } from '@com/md'
 
 const options = [
@@ -63,6 +84,24 @@ const mdOptions = {
     h1: H.H1,
     h2: H.H2,
     h3: H.H3,
+    Switch: {
+      component: Switch
+    },
+    Tooltip: {
+      component: Tooltip
+    },
+    Tag: {
+      component: Tag
+    },
+    Progress: {
+      component: Progress
+    },
+    Card: {
+      component: Card
+    },
+    CardDemo: {
+      component: CardDemo
+    },
     Button: {
       component: Button
     },
@@ -87,8 +126,35 @@ const mdOptions = {
     CheckboxDemo: {
       component: CheckboxDemo
     },
+    Option: {
+      component: Select.Option
+    },
+    Select: {
+      component: Select
+    },
     CheckboxGroupDemo: {
       component: CheckboxGroupDemo
+    },
+    RadioGroupDemo: {
+      component: RadioGroupDemo
+    },
+    SelectGroupDemo: {
+      component: SelectGroupDemo
+    },
+    Cascader: {
+      component: Cascader
+    },
+    BasicCascader: {
+      component: BasicCascader
+    },
+    SizeCascader: {
+      component: SizeCascader
+    },
+    SeparatorCascader: {
+      component: SeparatorCascader
+    },
+    DisabledCascader: {
+      component: DisabledCascader
     },
     playground: Playground,
     wrapper: Wrapper,

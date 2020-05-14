@@ -53,11 +53,9 @@ $ npm install nei-ui
 
 ```jsx
 import { Button } from 'nei-ui'
-ReactDOM.render(
-  <>
-    <Button>button</Button>
-  </>
-)
+() => {
+  return <Button>button</Button>
+}
 ```
 
 </div>

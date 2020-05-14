@@ -7,6 +7,9 @@ export default React.memo(({ items, showDescription, destination }) => {
         <div className="link" key={index}>
           <NavLink
             activeClassName="selected"
+            onClick={() => {
+              document.documentElement.scrollTop = document.body.scrollTop = 0
+            }}
             to={{
               pathname: `${destination}/${item.en}`
             }}
