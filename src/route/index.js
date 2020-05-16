@@ -14,7 +14,7 @@ export default function App() {
           <Route path="/guide/:name" component={Home} />
           <Route path="/component/:name" component={Component} />
           <Route path="/customization" component={Customization} />
-          <Redirect from="/component" to="/component/Button" />
+          <Redirect from="/component" to="/component/Spacer" />
           <Redirect from="/" to="/guide/introduction" />
           <Redirect from="/guide" to="/guide/introduction" />
         </Switch>

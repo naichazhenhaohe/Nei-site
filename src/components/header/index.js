@@ -13,9 +13,9 @@ export default function Header() {
           <NavLink className="tab" activeClassName="selected" to="/component">
             组件
           </NavLink>
-          {/* <NavLink className="tab" activeClassName="selected" to="/customization">
+          <NavLink className="tab" activeClassName="selected" to="/customization">
             自定义主题
-          </NavLink> */}
+          </NavLink>
         </nav>
       </div>
       <style jsx>{`

@@ -41,11 +41,6 @@ import {
 
 const options = [
   {
-    en: 'GENERAL',
-    zh: '常用',
-    children: [{ zh: '按钮', en: 'Button' }]
-  },
-  {
     en: 'LAYOUT',
     zh: '布局',
     children: [
@@ -57,6 +52,7 @@ const options = [
     en: 'INPUT',
     zh: '输入',
     children: [
+      { zh: '按钮', en: 'Button' },
       { zh: '输入框', en: 'Input' },
       { zh: '复选框', en: 'Checkbox' },
       { zh: '单选框', en: 'Radio' },
