@@ -241,7 +241,7 @@ import { Card } from 'nei-ui'
 
 |   属性    |                描述                | 类型                | 默认值    |
 | :-------: | :--------------------------------: | ------------------- | --------- |
-|  titile   |             卡片的标题             | ReactNode / String  | -         |
+|  titile   |             卡片的标题             | ReactNode / String / null  | -         |
 | hoverable | 卡片被鼠标覆盖时，是否出现悬浮效果 | Boolean             | false     |
 |   size    |          卡片 title 大小           | 'default' / 'small' | 'default' |
 | bordered  |              卡片是否有边框              | Boolean             | true     |

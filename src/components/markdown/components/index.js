@@ -15,7 +15,8 @@ import CheckboxGroupDemo from './CheckboxGroupDemo'
 import RadioGroupDemo from './RadioGroupDemo'
 import SelectGroupDemo from './SelectGroupDemo'
 import { BasicCascader, SizeCascader, SeparatorCascader, DisabledCascader } from './CascaderDemo'
-import CardDemo from './CardDemo';
+import CardDemo from './CardDemo'
+import ColorBox from './colorBox'
 
 export {
   H,
@@ -39,5 +40,6 @@ export {
   SizeCascader,
   SeparatorCascader,
   DisabledCascader,
-  CardDemo
+  CardDemo,
+  ColorBox
 }
