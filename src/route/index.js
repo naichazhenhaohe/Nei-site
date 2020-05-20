@@ -1,7 +1,7 @@
 import React from 'react'
 import { BrowserRouter as Router, Route, Switch, Redirect } from 'react-router-dom'
 import Header from '@com/header'
-import Home from '@page/home'
+import Guide from '@page/guide'
 import Component from '@page/component'
 import Customization from '@page/customization'
 
@@ -11,7 +11,7 @@ export default function App() {
       <Router basename="/nei">
         <Header />
         <Switch>
-          <Route path="/guide/:name" component={Home} />
+          <Route path="/guide/:name" component={Guide} />
           <Route path="/component/:name" component={Component} />
           <Route path="/customization" component={Customization} />
           <Redirect from="/component" to="/component/Spacer" />

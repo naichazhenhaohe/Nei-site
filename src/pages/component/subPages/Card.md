@@ -82,6 +82,38 @@ import { Card，Button } from 'nei-ui'
 </details>
 </playground>
 
+### 无标题卡片
+
+<desc>不设置title的值即可让卡片没有标题栏。</desc>
+
+<playground>
+<wrapper>
+
+<Card>
+  <p>no border Card body</p>
+</Card>
+
+</wrapper>
+
+<details>
+<summary>
+  <div>查看代码</div>
+</summary>
+
+```jsx
+import { Card } from 'nei-ui'
+() => {
+  return (
+    <Card >
+      <p>no title Card body</p>
+    </Card>
+  )
+}
+```
+
+</details>
+</playground>
+
 ### 悬浮特效
 
 <desc>通过 hoverable 属性设置卡片组件 Card 在被鼠标翻盖时，是否会产生悬浮的特效。</desc>
