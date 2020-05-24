@@ -1,5 +1,3 @@
-import React from 'react'
+import Customization from './customization'
 
-export default function Customization() {
-  return <div> this is customization page</div>
-}
+export default Customization

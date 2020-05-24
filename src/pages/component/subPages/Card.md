@@ -90,7 +90,7 @@ import { Card，Button } from 'nei-ui'
 <wrapper>
 
 <Card>
-  <p>no border Card body</p>
+  <p>no title Card body</p>
 </Card>
 
 </wrapper>

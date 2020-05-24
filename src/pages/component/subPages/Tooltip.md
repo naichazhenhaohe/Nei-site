@@ -114,18 +114,18 @@ import { Tooltip } from 'nei-ui'
 <playground>
 <wrapper>
 
-<Tooltip type='primary' placement='top' text='top tooltip'>top</Tooltip>
-<Tooltip type='primary' placement='topLeft' text='topLeft tooltip'>topLeft</Tooltip>
-<Tooltip type='primary' placement='topRight' text='topRight tooltip'>topRight</Tooltip>
-<Tooltip type='primary' placement='right' text='right tooltip'>right</Tooltip>
-<Tooltip type='primary' placement='rightTop' text='rightTop tooltip'>rightTop</Tooltip>
-<Tooltip type='primary' placement='rightBottom' text='rightBottom tooltip'>rightBottom</Tooltip>
-<Tooltip type='primary' placement='bottom' text='bottom tooltip'>bottom</Tooltip>
-<Tooltip type='primary' placement='bottomLeft' text='bottomLeft tooltip'>bottomLeft</Tooltip>
-<Tooltip type='primary' placement='bottomRight' text='bottomRight tooltip'>bottomRight</Tooltip>
-<Tooltip type='primary' placement='left' text='left tooltip'>left</Tooltip>
-<Tooltip type='primary' placement='leftTop' text='leftTop tooltip'>leftTop</Tooltip>
-<Tooltip type='primary' placement='leftBottom' text='leftBottom tooltip'>leftBottom</Tooltip>
+<Tooltip type='primary' placement='top' text='top tooltip'><div style='padding: 6pt 12pt; border: 1px solid #bbb;margin: 10px;'>top</div></Tooltip>
+<Tooltip type='primary' placement='topLeft' text='topLeft tooltip'><div style='padding: 6pt 12pt; border: 1px solid #bbb;margin: 10px;'>topLeft</div></Tooltip>
+<Tooltip type='primary' placement='topRight' text='topRight tooltip'><div style='padding: 6pt 12pt; border: 1px solid #bbb;margin: 10px;'>topRight</div></Tooltip>
+<Tooltip type='primary' placement='right' text='right tooltip'><div style='padding: 6pt 12pt; border: 1px solid #bbb;margin: 10px;'>right</div></Tooltip>
+<Tooltip type='primary' placement='rightTop' text='rightTop tooltip'><div style='padding: 6pt 12pt; border: 1px solid #bbb;margin: 10px;'>rightTop</div></Tooltip>
+<Tooltip type='primary' placement='rightBottom' text='rightBottom tooltip'><div style='padding: 6pt 12pt; border: 1px solid #bbb;margin: 10px;'>rightBottom</div></Tooltip>
+<Tooltip type='primary' placement='bottom' text='bottom tooltip'><div style='padding: 6pt 12pt; border: 1px solid #bbb;margin: 10px;'>bottom</div></Tooltip>
+<Tooltip type='primary' placement='bottomLeft' text='bottomLeft tooltip'><div style='padding: 6pt 12pt; border: 1px solid #bbb;margin: 10px;'>bottomLeft</div></Tooltip>
+<Tooltip type='primary' placement='bottomRight' text='bottomRight tooltip'><div style='padding: 6pt 12pt; border: 1px solid #bbb;margin: 10px;'>bottomRight</div></Tooltip>
+<Tooltip type='primary' placement='left' text='left tooltip'><div style='padding: 6pt 12pt; border: 1px solid #bbb;margin: 10px;'>left</div></Tooltip>
+<Tooltip type='primary' placement='leftTop' text='leftTop tooltip'><div style='padding: 6pt 12pt; border: 1px solid #bbb;margin: 10px;'>leftTop</div></Tooltip>
+<Tooltip type='primary' placement='leftBottom' text='leftBottom tooltip'><div style='padding: 6pt 12pt; border: 1px solid #bbb;margin: 10px;'>leftBottom</div></Tooltip>
 
 </wrapper>
 

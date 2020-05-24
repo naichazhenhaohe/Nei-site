@@ -17,6 +17,7 @@
 <playground>
 <wrapper>
 
+<Radio checked>radio</Radio>
 <Radio>radio</Radio>
 
 </wrapper>

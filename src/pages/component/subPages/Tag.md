@@ -61,19 +61,18 @@ import { Tag, Spacer } from 'nei-ui'
 <wrapper>
 
 <Tag type='default'>default</Tag>
-<Spacer />
+<Spacer y={0.5}/>
 <Tag type='primary'>primary</Tag>
-<Spacer />
+<Spacer y={0.5} />
 <Tag type='success'>success</Tag>
-<Spacer />
+<Spacer y={0.5} />
 <Tag type='warning'>warning</Tag>
-<Spacer />
+<Spacer y={0.5} />
 <Tag type='error'>error</Tag>
-<Spacer />
+<Spacer y={0.5} />
 <Tag type='dark'>dark</Tag>
-<Spacer />
+<Spacer y={0.5} />
 <Tag type='lite'>lite</Tag>
-<Spacer />
 
 </wrapper>
 
