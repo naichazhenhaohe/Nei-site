@@ -69,10 +69,12 @@ export default function Customization () {
         <LayoutBox />
       </main>
     </div>
-    <div className='codes'>
-      <LiveProvider code={userCodes} disabled theme={codeTheme}>
-        <LiveEditor />
-      </LiveProvider>
+    <div className='codeBox'>
+      <div className='codes'>
+        <LiveProvider code={userCodes} disabled theme={codeTheme}>
+          <LiveEditor />
+        </LiveProvider>
+      </div>
     </div>
     <Spacer y={10} />
     <style jsx>{`
@@ -83,6 +85,10 @@ export default function Customization () {
           margin: 0px auto;
           padding: 0px 16pt;
           display: flex;
+        }
+        .codeBox {
+          max-width: 782pt;
+          margin: 10vh auto;
         }
         aside {
           width: 34%;
