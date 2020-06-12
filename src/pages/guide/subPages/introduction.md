@@ -20,7 +20,7 @@
 
 <desc>Nei-UI 作为我的毕设项目而诞生。</desc>
 <desc>在开发过程中参考了很多优秀的 UI 组件库，</desc>
-<desc>比如 [ant-design](https://github.com/ant-design/ant-design/)、[@zeit-ui/react](https://github.com/zeit-ui/react)、[BB-color](https://github.com/BB-color/BB-color)、[lanchao-ui](https://github.com/ziwei3749/lanchao-ui) (这是一个 Vue 的组件库) 等</desc>
+<desc>比如 [@zeit-ui/react](https://github.com/zeit-ui/react)(大量参考)、[ant-design](https://github.com/ant-design/ant-design/)、[BB-color](https://github.com/BB-color/BB-color)、[lanchao-ui](https://github.com/ziwei3749/lanchao-ui) (这是一个 Vue 的组件库) 等</desc>
 <desc>结合了许多的源码的参考以及自身对于组件库的需求、使用上的一些想法而诞生了 Nei-UI。</desc>
 <desc>zeit 团队开发的 [style-jsx](https://github.com/zeit/styled-jsx) 也在 Nei-UI 中被使用。</desc>
 <desc>Nei-UI 使用 React Hook 进行开发，虽然提高了对于项目的 React 版本要求，但是 Hook 真的非常好用。</desc>
